@@ -4,7 +4,7 @@ spring:
     username: bestuser
     password: bestuser
   jpa:
-    show-sql: true
+    show-sql: false
     generate-ddl: false
     hibernate:
       ddl-auto: update
@@ -21,6 +21,6 @@ server:
     context-path: /api
 logging:
   file:
-    name: test.txt
+    name: log.txt
   pattern:
     file: "%msg%n"
